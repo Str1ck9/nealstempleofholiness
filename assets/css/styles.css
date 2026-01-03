@@ -551,8 +551,17 @@ select:focus,
 
 .leader-card img {
   width: 100%;
-  height: 220px;
+  height: 240px;
   object-fit: cover;
+  object-position: center 25%;
+  background: #f1f1f5;
+  padding: 0.35rem;
+}
+
+/* Modifier to fine-tune portrait framing without affecting all leader photos */
+.leader-photo--portrait {
+  /* Bias crop slightly higher so head/face stay visible; tweak via --focus-y if needed */
+  object-position: center var(--leader-focus-y, 15%);
 }
 
 blockquote {
