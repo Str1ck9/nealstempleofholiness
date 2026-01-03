@@ -1,30 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-label="Map placeholder of Havana, Florida">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-label="Stylized map of Havana, Florida area">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0b0f"/>
-      <stop offset="100%" stop-color="#7a3e9d"/>
-    </linearGradient>
-    <linearGradient id="path" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7a3e9d" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.9"/>
+      <stop offset="0%" stop-color="#f7f7fa"/>
+      <stop offset="100%" stop-color="#ebe7f5"/>
     </linearGradient>
   </defs>
   <rect width="900" height="600" fill="url(#bg)"/>
-  <g stroke="#f7f5ef" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
-    <path d="M80 520 L160 460 L220 420 L310 430 L380 370 L460 380 L520 330 L620 340 L700 280 L820 300" fill="none"/>
-    <path d="M200 200 L260 250 L340 210 L420 260 L500 230 L580 280" fill="none"/>
-    <path d="M520 140 L560 190 L630 160 L700 210" fill="none"/>
+
+  <!-- Water bodies -->
+  <g fill="#dbeafe" opacity="0.9">
+    <path d="M40 90 Q140 60 240 120 T440 160 Q520 180 560 220 Q600 260 560 300 T420 340 Q320 360 260 320 Q200 280 140 260 Q80 240 60 220 Z"/>
+    <path d="M620 430 Q700 400 780 430 Q840 460 860 500 Q820 520 760 520 Q700 520 650 500 Q600 480 620 430 Z"/>
   </g>
-  <circle cx="610" cy="320" r="90" fill="#f7f5ef" opacity="0.07"/>
-  <circle cx="610" cy="320" r="60" fill="#f7f5ef" opacity="0.08"/>
-  <g transform="translate(590 250)">
-    <rect x="-14" y="-14" width="56" height="56" rx="12" fill="#c19a3d"/>
-    <path d="M14 -2 L14 18 L-6 8 Z" fill="#0f1b33" opacity="0.9"/>
+
+  <!-- Grid roads -->
+  <g stroke="#d1d5db" stroke-width="5" stroke-linecap="round">
+    <path d="M120 40 L120 560"/>
+    <path d="M220 20 L220 580"/>
+    <path d="M320 20 L320 580"/>
+    <path d="M420 20 L420 580"/>
+    <path d="M520 20 L520 580"/>
+    <path d="M620 20 L620 580"/>
+    <path d="M720 20 L720 580"/>
+    <path d="M20 140 L880 140"/>
+    <path d="M20 240 L880 240"/>
+    <path d="M20 340 L880 340"/>
+    <path d="M20 440 L880 440"/>
+    <path d="M20 540 L880 540"/>
   </g>
-  <g transform="translate(610 360)">
-    <rect x="-22" y="-22" width="120" height="64" rx="14" fill="#f7f5ef" opacity="0.92"/>
-    <text x="38" y="18" fill="#0b0b0f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Havana</text>
+
+  <!-- Major routes -->
+  <g stroke="#7a3e9d" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95">
+    <path d="M60 500 L200 420 L340 450 L460 380 L600 400 L780 340"/>
+    <path d="M180 100 L260 180 L380 160 L520 220 L660 200 L800 260"/>
   </g>
-  <rect x="42" y="42" width="210" height="70" rx="12" fill="#f7f5ef" opacity="0.14" stroke="#f7f5ef" stroke-width="2" stroke-dasharray="10 8"/>
-  <text x="72" y="88" fill="#f7f5ef" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" font-weight="700">Map Placeholder</text>
+
+  <!-- Secondary routes -->
+  <g stroke="#9ca3af" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M140 280 L260 260 L360 300 L460 260 L560 300 L660 280"/>
+    <path d="M200 480 L300 430 L420 460 L520 430 L640 470"/>
+    <path d="M300 520 L420 520 L520 500"/>
+    <path d="M380 200 L480 180 L560 220"/>
+  </g>
+
+  <!-- Parcels / parks -->
+  <g fill="#e5e7eb" opacity="0.8">
+    <rect x="260" y="380" width="70" height="70" rx="8"/>
+    <rect x="340" y="210" width="80" height="60" rx="8"/>
+    <rect x="520" y="320" width="90" height="80" rx="10"/>
+    <rect x="700" y="420" width="90" height="70" rx="10"/>
+  </g>
+
+  <!-- Pin -->
+  <g transform="translate(540 350)">
+    <path d="M40 0 C18 0 0 18 0 40 C0 68 40 108 40 108 C40 108 80 68 80 40 C80 18 62 0 40 0 Z" fill="#7a3e9d"/>
+    <circle cx="40" cy="40" r="14" fill="#ffffff"/>
+  </g>
+
+  <!-- Label -->
+  <g transform="translate(600 460)">
+    <rect x="-26" y="-24" width="160" height="64" rx="14" fill="#0b0b0f" opacity="0.9"/>
+    <text x="54" y="12" fill="#ffffff" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">240 Neal's Temple Rd</text>
+    <text x="54" y="32" fill="#e5e7eb" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle">Havana, FL 32333</text>
+  </g>
+
+  <!-- Frame label -->
+  <rect x="30" y="30" width="220" height="70" rx="12" fill="#0b0b0f" opacity="0.12" stroke="#7a3e9d" stroke-width="2" stroke-dasharray="10 8"/>
+  <text x="60" y="76" fill="#0b0b0f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" font-weight="700">Map Preview</text>
 </svg>
