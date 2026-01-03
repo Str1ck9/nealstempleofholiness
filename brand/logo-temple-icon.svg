@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Neal’s Temple of Holiness icon">
+  <rect width="256" height="256" rx="48" fill="#0B2A4A"/>
+  <path d="M128 52 L196 92 L60 92 Z" fill="#F8FAFC"/>
+  <rect x="124" y="58" width="8" height="34" rx="2" fill="#C8A24A"/>
+  <rect x="112" y="70" width="32" height="8" rx="2" fill="#C8A24A"/>
+  <rect x="72" y="102" width="112" height="92" rx="18" fill="#F8FAFC"/>
+  <g opacity="0.16">
+    <rect x="92" y="120" width="12" height="56" rx="4" fill="#0B2A4A"/>
+    <rect x="116" y="120" width="12" height="56" rx="4" fill="#0B2A4A"/>
+    <rect x="140" y="120" width="12" height="56" rx="4" fill="#0B2A4A"/>
+    <rect x="164" y="120" width="12" height="56" rx="4" fill="#0B2A4A"/>
+  </g>
+  <rect x="64" y="200" width="128" height="14" rx="7" fill="#C8A24A"/>
+</svg>

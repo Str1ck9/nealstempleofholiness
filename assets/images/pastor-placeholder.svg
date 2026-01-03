@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420" role="img" aria-label="Pastor portrait placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1b33"/>
+      <stop offset="100%" stop-color="#1c2744"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="300" cy="150" r="78" fill="#f7f5ef" opacity="0.16"/>
+  <circle cx="300" cy="150" r="64" fill="#f7f5ef" opacity="0.26"/>
+  <path d="M300 105c-22 0-38 18-38 44 0 26 16 44 38 44s38-18 38-44c0-26-16-44-38-44z" fill="#e2c78c" opacity="0.9"/>
+  <path d="M180 332c8-68 52-102 120-102s112 34 120 102l-240 0z" fill="#f7f5ef" opacity="0.92"/>
+  <path d="M260 164c10 12 24 18 40 18 16 0 30-6 40-18-6-4-18-8-40-8s-34 4-40 8z" fill="#c19a3d" opacity="0.65"/>
+  <rect x="72" y="48" width="140" height="40" rx="12" fill="#f7f5ef" opacity="0.14"/>
+  <text x="90" y="76" fill="#f7f5ef" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" font-weight="700">Pastor</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420" role="img" aria-label="Leadership portrait placeholder">
+  <defs>
+    <linearGradient id="bgL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c2744"/>
+      <stop offset="100%" stop-color="#0f1b33"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="420" rx="28" fill="url(#bgL)"/>
+  <circle cx="190" cy="140" r="58" fill="#f7f5ef" opacity="0.22"/>
+  <circle cx="190" cy="140" r="48" fill="#f7f5ef" opacity="0.32"/>
+  <circle cx="410" cy="140" r="58" fill="#f7f5ef" opacity="0.18"/>
+  <circle cx="410" cy="140" r="48" fill="#f7f5ef" opacity="0.28"/>
+  <path d="M190 116c-18 0-30 14-30 34 0 20 12 34 30 34s30-14 30-34c0-20-12-34-30-34z" fill="#e2c78c" opacity="0.9"/>
+  <path d="M410 116c-18 0-30 14-30 34 0 20 12 34 30 34s30-14 30-34c0-20-12-34-30-34z" fill="#c19a3d" opacity="0.9"/>
+  <path d="M110 322c6-54 40-80 80-80s74 26 80 80l-160 0z" fill="#f7f5ef" opacity="0.9"/>
+  <path d="M330 322c6-54 40-80 80-80s74 26 80 80l-160 0z" fill="#f7f5ef" opacity="0.86"/>
+  <rect x="84" y="48" width="150" height="40" rx="12" fill="#f7f5ef" opacity="0.14"/>
+  <text x="110" y="76" fill="#f7f5ef" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" font-weight="700">Leadership</text>
+</svg>

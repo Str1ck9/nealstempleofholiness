@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="220" viewBox="0 0 980 220" role="img" aria-label="Neal’s Temple of Holiness logo">
+  <defs>
+    <style>
+      .navy { fill:#0B2A4A; }
+      .gold { fill:#C8A24A; }
+      .text { fill:#f7f5ef; font-family: "Cormorant Garamond", Georgia, serif; font-weight: 600; }
+      .sub { fill:#f7f5ef; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-weight: 500; letter-spacing: 0.18em; }
+    </style>
+  </defs>
+
+  <!-- Icon -->
+  <g transform="translate(30,30)">
+    <path class="navy" d="M70 0 L140 38 L0 38 Z"/>
+    <rect class="gold" x="66" y="6" width="8" height="28" rx="2"/>
+    <rect class="gold" x="56" y="16" width="28" height="8" rx="2"/>
+    <rect class="navy" x="14" y="46" width="112" height="90" rx="10"/>
+    <g opacity="0.18">
+      <rect x="30" y="60" width="12" height="64" fill="#F8FAFC" rx="4"/>
+      <rect x="54" y="60" width="12" height="64" fill="#F8FAFC" rx="4"/>
+      <rect x="78" y="60" width="12" height="64" fill="#F8FAFC" rx="4"/>
+      <rect x="102" y="60" width="12" height="64" fill="#F8FAFC" rx="4"/>
+    </g>
+    <rect class="gold" x="6" y="142" width="128" height="16" rx="8"/>
+  </g>
+
+  <!-- Text -->
+  <text x="210" y="108" class="text" font-size="56">Neal’s Temple of Holiness</text>
+  <text x="214" y="152" class="sub" font-size="16">TALLAHASSEE • FLORIDA</text>
+</svg>
